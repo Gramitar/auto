@@ -2,6 +2,10 @@ header {
     height: 100%;
 }
 
+main {
+    position: relative;
+}
+
 .navbar {
     display: flex;
     justify-content: flex-start;
@@ -11,7 +15,7 @@ header {
 
 .logo {
     color: #1E1B1B;
-    margin-left: 320px;
+    margin-left: 15vw;
     margin-top: 31px;
 
 }
@@ -21,10 +25,10 @@ header {
     width: 600px;
     height: 56px;
     position: relative;
-    left: 450px;
+    left: 17%;
     top: 32px;
     font-family: "Manrope", sans-serif;
-    font-size: 600;
+    font-weight: 600;
 }
 
 .menu__items:first-child {
@@ -81,7 +85,7 @@ header {
 
 .header {
     display: flex;
-    margin: 100px 250px;
+    margin: 100px 15vw;
     width: 1300px;
     height: 632px;
     position: relative;
@@ -115,10 +119,13 @@ header {
 }
 
 .service {
-    height: 100%;
+    height: 952px;
+    position: absolute;
+    left: 0;
+    width: 100%;
     background-color: rgb(236, 234, 234);
     text-align: center;
-    padding: 150px;
+    padding: 7.813vw;
     font-family: "Manrope", sans-serif;
     font-size: 36px;
     padding-bottom: 20px;
@@ -218,9 +225,11 @@ header {
 .CTA {
     display: flex;
     height: 502px;
-    padding-top: 95px;
+    margin-top: 95px;
     position: relative;
     left: -200px;
+    width: 102.1vw;
+    background: url("../Img/ovGrEUgrkyE.jpg") right;
 }
 
 .CTA__img1 {
@@ -287,10 +296,11 @@ header {
     font-family: "Manrope", sans-serif;
     font-size: 58px;
     font-weight: 700;
+    padding-bottom: 50px;
 }
 
 .brands__title {
-    padding: 100px 0 20px 0;
+    padding: 100px 0 0px 0;
 }
 
 .blog {
@@ -361,4 +371,286 @@ header {
 .blog__info--title, .blog__info--text {
     text-align: left;
     max-width: 425px;
+}
+
+.testimonials__line {
+    display: inline-block;
+    padding-top: 47px;
+}
+
+.testimonials {
+    background-color: #F2F2F2;
+    height: 938px;
+    position: absolute;
+    left: 0px;
+    min-width: 100%;
+
+
+}
+
+.testimonials__title {
+    padding: 100px 0 70px;
+    font-family: "Manrope", sans-serif;
+    font-size: 58px;
+    font-weight: 800;
+    width: 940px;
+    line-height: 76px;
+    margin: 0 auto 0 auto;
+}
+
+.testimonials__flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.testimonials__block {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 616px;
+    height: 376px;
+    padding: 72px;
+}
+
+.testimonials__about--text {
+    width: 500px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.testimonials__block--about {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.testimonials__about--name {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.testimonials__about--address {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #939191;
+}
+
+.testimonials__about {
+    padding: 10px 0 0 15px;
+}
+
+.sliders {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px 302px;
+    column-gap: 5px;
+}
+
+.FAQ {
+    height: 1140px;
+    position: absolute;
+    left: 0;
+    margin-top: 938px;
+    min-width: 100%;
+    background-color: #E2E6E9;
+}
+
+.FAQ__title {
+    padding: 158px 0 86px 0;
+    font-family: "Manrope", sans-serif;
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.FAQ__elements {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    max-width: 896px;
+    height: 112px;
+    margin: 12px auto 12px auto;
+    justify-content: start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FAQ__elements--text {
+    padding-left: 40.57px;
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.FAQ__elements--button {
+    padding-right: 40.05px;
+}
+
+.contactform {
+    padding-top: 2078px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    column-gap: 4px;
+}
+
+.contactform__input {
+    padding: 121px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 121px;
+}
+
+.title__form {
+    font-family: "Manrope", sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    width: 587px;
+    text-align: start;
+    padding: 50px 0 48px 0;
+}
+
+.contactform__title {
+    width: 590px;
+    text-align: left;
+    line-height: 84px;
+}
+
+input {
+    background-color: #F2F2F2;
+    margin: 4px;
+    width: 624px;
+    height: 72px;
+}
+
+.conatctform__info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 337px;
+}
+
+.contactform__title {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E1B1B;
+    text-align: left;
+    line-height: 28px;
+
+}
+
+.contactform__text {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1B1B;
+    text-align: left;
+    line-height: 36px;
+    padding-bottom: 32px;
+}
+
+.contactform__input--button {
+    background-color: #fff;
+    text-align: start;
+    padding-top: 64px;
+}
+
+.qwe {
+    padding-left: 40px;
+    color: #1E1B1B;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+}
+
+.mapimage {
+    padding-top: 3000px;
+
+}
+
+.above-footer-img {
+    background-image: url("../Img/Image.png");
+    height: 448px;
+    position: absolute;
+    left: 0px;
+    top: 7300px;
+    width: 100%;
+    z-index: -1;
+}
+
+.footer {
+    position: absolute;
+    top: 8670px;
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertop {
+    background-color: #353434;
+    height: 549px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 128px;
+}
+
+.footertop__left--title {
+    font-family: "Manrope", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 630px;
+    line-height: 140%;
+}
+
+.footertop__left--icons {
+    display: flex;
+    column-gap: 23.67px;
+    padding-top: 64px;
+}
+.footer__title{
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #999999;
+    padding-bottom: 8px;
+}
+.footer__text{
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #ffffff;
+    padding-bottom: 32px;
+}
+.footerbottom{
+    background-color: #1E1B1B;
+    height: 157px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 65px;
+}
+.footerbottom__menu{
+    display: inline-flex;
+}
+.footerbottom__menu--element{
+    padding-left: 36px;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footerbottom__text{
+    color:#939191;
 }
